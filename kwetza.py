@@ -45,8 +45,8 @@ def initialize():
 
 	global endpointPort
 	global endpointIP
-	endpointIP=sys.argv[3]
-	endpointPort=sys.argv[4]
+	endpointIP=sys.argv[2]
+	endpointPort=sys.argv[3]
 	global cwd
 
 	print "[+] ENDPOINT IP: "+endpointIP
